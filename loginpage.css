@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: brown;
+}
+
+::selection{
+    background: brown;
+}
+
+.login{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+}
+
+.login .title {
+    line-height: 90px;
+    background: rgb(197, 70, 70);
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form {
+    padding: 30px 20px 25px 20px;
+}
+
+.login form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.login form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
